@@ -1,6 +1,12 @@
-// Typing animation
 const typingText = document.querySelector('.typing');
-const roles = ["MERN Stack Developer", "Open Source Contributor", "UI/UX Enthusiast"];
+const roles = [
+  "Spring Boot Developer",
+  "MERN Stack Developer 💻",
+  "Open Source Contributor 🌐",
+  "Problem Solver 🧠",
+  "UI/UX Enthusiast 🎨",
+  "Java & Node.js Developer 🔧"
+];
 let roleIndex = 0;
 let charIndex = 0;
 
@@ -8,9 +14,9 @@ function type() {
   if (charIndex < roles[roleIndex].length) {
     typingText.textContent += roles[roleIndex].charAt(charIndex);
     charIndex++;
-    setTimeout(type, 100);
+    setTimeout(type, 80); // typing speed
   } else {
-    setTimeout(erase, 2000);
+    setTimeout(erase, 2000); // wait before erasing
   }
 }
 
@@ -18,18 +24,16 @@ function erase() {
   if (charIndex > 0) {
     typingText.textContent = roles[roleIndex].substring(0, charIndex - 1);
     charIndex--;
-    setTimeout(erase, 50);
+    setTimeout(erase, 40); // erase speed
   } else {
     roleIndex = (roleIndex + 1) % roles.length;
-    setTimeout(type, 500);
+    setTimeout(type, 500); // wait before next typing
   }
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  if (roles.length) setTimeout(type, 1000);
-});
-
-// Dark mode toggle
-document.querySelector('.toggle-mode').addEventListener('click', () => {
-  document.body.classList.toggle('dark');
+  if (typingText) {
+    typingText.textContent = "";
+    setTimeout(type, 1000);
+  }
 });
