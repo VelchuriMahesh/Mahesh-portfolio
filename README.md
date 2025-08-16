@@ -1,13 +1,12 @@
 # 🌟 Mahesh's Portfolio
 
-Checkout here : https://velchurimahesh.github.io/Mahesh-portfolio/
 
 Welcome to my **personal portfolio website**! This modern and responsive site is built using **HTML**, **CSS**, and **JavaScript**, showcasing my projects, skills, resume, and achievements.
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-blue?style=flat-square)](https://github.com/VelchuriMahesh/Mahesh-portfolio)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-🔗 Live Demo: [mahesh-portfolio.vercel.app](https://mahesh-portfolio.vercel.app/)
+🔗 Live Demo: https://velchurimahesh.github.io/Mahesh-portfolio/
 
 ---
 
