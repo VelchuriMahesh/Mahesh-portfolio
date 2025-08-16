@@ -1,6 +1,6 @@
 # 🌟 Mahesh's Portfolio
 
-![Profile](profile.jpg)
+Checkout here : https://velchurimahesh.github.io/Mahesh-portfolio/
 
 Welcome to my **personal portfolio website**! This modern and responsive site is built using **HTML**, **CSS**, and **JavaScript**, showcasing my projects, skills, resume, and achievements.
 
